@@ -1,0 +1,246 @@
+{
+ "updatedAt": "2026-10-30T15:28:19Z",
+ "headline": {
+  "families": 164,
+  "orders": 208,
+  "items": 541,
+  "preloved": 509,
+  "freeItems": 147,
+  "paid": 688.1,
+  "newValue": 5248.03,
+  "saved": 4693.86,
+  "co2Kg": 3477.5,
+  "waterLitres": 1974900,
+  "wasteKg": 239.55,
+  "schools": 19,
+  "firstSale": "2026-07-21",
+  "lastSale": "2026-10-28"
+ },
+ "weekly": [
+  {
+   "weekStart": "2026-07-20",
+   "families": 1,
+   "items": 1,
+   "saved": 9.9
+  },
+  {
+   "weekStart": "2026-07-27",
+   "families": 6,
+   "items": 32,
+   "saved": 301.55
+  },
+  {
+   "weekStart": "2026-08-03",
+   "families": 2,
+   "items": 10,
+   "saved": 113.25
+  },
+  {
+   "weekStart": "2026-08-10",
+   "families": 1,
+   "items": 9,
+   "saved": 82.9
+  },
+  {
+   "weekStart": "2026-08-17",
+   "families": 6,
+   "items": 15,
+   "saved": 116.85
+  },
+  {
+   "weekStart": "2026-08-24",
+   "families": 7,
+   "items": 28,
+   "saved": 203.5
+  },
+  {
+   "weekStart": "2026-08-31",
+   "families": 19,
+   "items": 32,
+   "saved": 311.9
+  },
+  {
+   "weekStart": "2026-09-07",
+   "families": 8,
+   "items": 16,
+   "saved": 116.3
+  },
+  {
+   "weekStart": "2026-09-14",
+   "families": 5,
+   "items": 19,
+   "saved": 189.05
+  },
+  {
+   "weekStart": "2026-09-21",
+   "families": 30,
+   "items": 82,
+   "saved": 606.15
+  },
+  {
+   "weekStart": "2026-09-28",
+   "families": 33,
+   "items": 97,
+   "saved": 819.7
+  },
+  {
+   "weekStart": "2026-10-05",
+   "families": 25,
+   "items": 56,
+   "saved": 544.35
+  },
+  {
+   "weekStart": "2026-10-12",
+   "families": 35,
+   "items": 128,
+   "saved": 1168.66
+  },
+  {
+   "weekStart": "2026-10-19",
+   "families": 2,
+   "items": 8,
+   "saved": 66.25
+  },
+  {
+   "weekStart": "2026-10-26",
+   "families": 2,
+   "items": 8,
+   "saved": 43.55
+  }
+ ],
+ "schools": [
+  {
+   "school": "Southglade Primary and Nursery School",
+   "families": 24,
+   "items": 110,
+   "freeItems": 0,
+   "saved": 977.85
+  },
+  {
+   "school": "Glade Hill Primary & Nursery School",
+   "families": 15,
+   "items": 58,
+   "freeItems": 54,
+   "saved": 572.45
+  },
+  {
+   "school": "Sycamore Academy",
+   "families": 23,
+   "items": 44,
+   "freeItems": 0,
+   "saved": 505.1
+  },
+  {
+   "school": "Portland Spencer Academy",
+   "families": 17,
+   "items": 37,
+   "freeItems": 0,
+   "saved": 415
+  },
+  {
+   "school": "Sneinton St Stephen's CofE Primary School",
+   "families": 15,
+   "items": 32,
+   "freeItems": 32,
+   "saved": 328
+  },
+  {
+   "school": "Victoria Primary School",
+   "families": 6,
+   "items": 42,
+   "freeItems": 42,
+   "saved": 257.45
+  },
+  {
+   "school": "The Nottingham Emmanuel School",
+   "families": 8,
+   "items": 21,
+   "freeItems": 0,
+   "saved": 208.4
+  },
+  {
+   "school": "Crabtree Farm Primary School",
+   "families": 15,
+   "items": 36,
+   "freeItems": 19,
+   "saved": 206.65
+  },
+  {
+   "school": "South Wilford Endowed CofE Primary School",
+   "families": 3,
+   "items": 21,
+   "freeItems": 0,
+   "saved": 172.8
+  },
+  {
+   "school": "Glenbrook Spencer Academy",
+   "families": 6,
+   "items": 22,
+   "freeItems": 0,
+   "saved": 162.9
+  },
+  {
+   "school": "Nottingham Primary Academy",
+   "families": 6,
+   "items": 21,
+   "freeItems": 0,
+   "saved": 152.76
+  },
+  {
+   "school": "Djanogly Northgate Academy",
+   "families": 5,
+   "items": 14,
+   "freeItems": 0,
+   "saved": 147.25
+  },
+  {
+   "school": "Claremont Primary and Nursery School",
+   "families": 5,
+   "items": 17,
+   "freeItems": 0,
+   "saved": 133.55
+  },
+  {
+   "school": "Firbeck Academy",
+   "families": 3,
+   "items": 15,
+   "freeItems": 0,
+   "saved": 125.95
+  },
+  {
+   "school": "Warren Primary Academy",
+   "families": 4,
+   "items": 15,
+   "freeItems": 0,
+   "saved": 123.25
+  },
+  {
+   "school": "Robin Hood Primary School",
+   "families": 2,
+   "items": 8,
+   "freeItems": 0,
+   "saved": 75.25
+  },
+  {
+   "school": "Highbank Primary and Nursery School",
+   "families": 5,
+   "items": 20,
+   "freeItems": 0,
+   "saved": 74.2
+  },
+  {
+   "school": "Southwold Primary School and Early Years' Centre",
+   "families": 2,
+   "items": 6,
+   "freeItems": 0,
+   "saved": 47.55
+  },
+  {
+   "school": "Radford Primary School Academy",
+   "families": 2,
+   "items": 3,
+   "freeItems": 0,
+   "saved": 7.5
+  }
+ ]
+}

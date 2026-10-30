@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cress in Nottingham</title>
+<meta name="description" content="Preloved school uniform across Nottingham City Council schools: what families have saved, live from Cress.">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Fraunces:opsz,SOFT,wght@9..144,100,600;9..144,100,800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --oat: #EFE2D4; --oat-2: #F7EFE6; --card: #FFFBF6; --charcoal: #231E21; --navy: #285C9C; --sky: #BBC5DF;
+    --yellow: #FFE23D; --teal: #78AE9F; --pink: #F7A69A; --orange: #F9A558; --muted: #6B6266; --line: #E2D3C2;
+    --head: 'Gooper', 'Fraunces', Georgia, serif; --body: 'Circular Std', 'DM Sans', system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--oat); color: var(--charcoal); font-family: var(--body); line-height: 1.5; }
+  .wrap { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+  h1, h2, h3, .serif { font-family: var(--head); font-variation-settings: 'SOFT' 100; font-weight: 800; letter-spacing: -0.02em; line-height: 1.05; margin: 0; }
+  p { margin: 0; }
+  .num { font-variant-numeric: tabular-nums; }
+
+  header.top { padding: 22px 0; }
+  header.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .brand { display: flex; align-items: center; gap: 16px; }
+  .brand img { height: 44px; width: auto; display: block; }
+  .brand .sep { width: 1px; height: 34px; background: var(--charcoal); opacity: .25; }
+  .brand .partner { font-weight: 700; font-size: 15px; line-height: 1.2; }
+  .brand .partner span { display: block; font-weight: 400; font-size: 13px; color: var(--muted); }
+  .updated { display: inline-flex; align-items: center; gap: 8px; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px; font-size: 13px; color: var(--muted); }
+  .updated i { width: 8px; height: 8px; border-radius: 50%; background: var(--teal); display: inline-block; }
+
+  .hero { padding: 36px 0 44px; }
+  .hero .wrap { display: grid; grid-template-columns: 1.4fr 1fr; gap: 28px; align-items: stretch; }
+  .eyebrow { font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--navy); margin-bottom: 14px; }
+  .big { font-size: clamp(64px, 11vw, 132px); color: var(--navy); }
+  .hero .lede { font-size: clamp(19px, 2.2vw, 24px); margin-top: 14px; max-width: 32rem; }
+  .hero .lede b { font-weight: 700; }
+  .hero-side { background: var(--navy); color: #fff; border-radius: 28px; padding: 32px; display: flex; flex-direction: column; justify-content: space-between; gap: 26px; position: relative; overflow: hidden; }
+  .hero-side::after { content: ''; position: absolute; width: 220px; height: 220px; border-radius: 50%; background: var(--yellow); right: -90px; top: -90px; opacity: .95; }
+  .hero-side .pct { font-size: 76px; position: relative; z-index: 1; }
+  .hero-side p { color: #E4E9F4; font-size: 17px; position: relative; z-index: 1; }
+  .hero-side .per { border-top: 1px solid rgba(255,255,255,.2); padding-top: 18px; }
+  .hero-side .per b { color: #fff; font-size: 22px; font-family: var(--head); font-variation-settings: 'SOFT' 100; }
+
+  .tiles { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+  .tile { border-radius: 22px; padding: 22px 22px 20px; display: flex; flex-direction: column; gap: 4px; min-height: 150px; }
+  .tile .lbl { font-size: 14px; font-weight: 700; }
+  .tile .val { font-size: clamp(36px, 4vw, 48px); margin-top: auto; }
+  .tile .sub { font-size: 13px; opacity: .8; }
+  .t-yellow { background: var(--yellow); } .t-sky { background: var(--sky); } .t-pink { background: var(--pink); } .t-teal { background: var(--teal); } .t-orange { background: var(--orange); }
+
+  section { padding: 22px 0; }
+  .cards { display: grid; grid-template-columns: 1.6fr 1fr; gap: 18px; }
+  .card { background: var(--card); border-radius: 26px; padding: 28px; min-width: 0; }
+  .card h2 { font-size: 28px; margin-bottom: 6px; }
+  .card .note { font-size: 14px; color: var(--muted); margin-bottom: 18px; }
+  .chart { position: relative; min-height: 280px; }
+  .chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .tick { font-size: 12px; fill: var(--muted); font-family: var(--body); }
+  .tip { position: absolute; pointer-events: none; background: var(--charcoal); color: #fff; border-radius: 12px; padding: 8px 12px; font-size: 13px; white-space: nowrap; z-index: 2; }
+  .tip b { display: block; font-size: 16px; }
+  .tip span { opacity: .75; }
+
+  .cmp { display: flex; flex-direction: column; gap: 14px; }
+  .cmp-row { display: flex; justify-content: space-between; align-items: baseline; font-size: 15px; }
+  .cmp-row b { font-family: var(--head); font-variation-settings: 'SOFT' 100; font-size: 28px; }
+  .track { height: 34px; background: var(--oat-2); border-radius: 12px; overflow: hidden; }
+  .fill { height: 100%; border-radius: 12px; width: 0; transition: width 1s cubic-bezier(.2,.8,.2,1); }
+  .gap { margin-top: 10px; background: var(--oat-2); border-radius: 16px; padding: 16px 18px; font-size: 15px; }
+  .gap b { color: var(--navy); }
+
+  .table-box { max-height: 560px; overflow: auto; margin: 0 -8px; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th { position: sticky; top: 0; background: var(--card); text-align: right; padding: 0; border-bottom: 2px solid var(--charcoal); z-index: 1; }
+  th:first-child, td:first-child { text-align: left; }
+  th button { all: unset; cursor: pointer; display: block; padding: 10px 8px; font-size: 13px; font-weight: 700; }
+  th button::after { content: ''; margin-left: 4px; }
+  th[aria-sort=descending] button::after { content: '↓'; }
+  th[aria-sort=ascending] button::after { content: '↑'; }
+  td { padding: 11px 8px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+  td:first-child { white-space: normal; font-weight: 500; }
+  .savedcell { display: flex; align-items: center; justify-content: flex-end; gap: 10px; }
+  .inbar { width: 110px; height: 10px; background: var(--oat-2); border-radius: 6px; overflow: hidden; }
+  .inbar i { display: block; height: 100%; background: var(--navy); border-radius: 6px; }
+  .free-badge { display: inline-block; background: var(--pink); border-radius: 999px; padding: 1px 8px; font-size: 12px; font-weight: 700; }
+
+  .method { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+  .method .card h3 { font-size: 20px; margin-bottom: 8px; }
+  .method .card p { font-size: 14px; color: var(--muted); }
+
+  footer { padding: 36px 0 56px; }
+  footer .wrap { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; font-size: 14px; color: var(--muted); }
+  footer img { height: 30px; }
+  .loading .big, .loading .val, .loading .pct { color: transparent !important; background: rgba(35,30,33,.08); border-radius: 12px; }
+  .err { display: none; background: var(--pink); border-radius: 16px; padding: 14px 18px; margin-bottom: 12px; font-weight: 500; }
+  .error .err { display: block; }
+
+  @media (max-width: 980px) {
+    .hero .wrap, .cards { grid-template-columns: 1fr; }
+    .tiles { grid-template-columns: repeat(3, 1fr); }
+    .method { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 620px) {
+    .wrap { padding: 0 16px; }
+    .tiles { grid-template-columns: repeat(2, 1fr); }
+    .tile { min-height: 128px; padding: 18px; }
+    .card { padding: 20px; border-radius: 20px; }
+    .hide-narrow { display: none; }
+    .inbar { display: none; }
+    .brand img { height: 36px; }
+  }
+  @media (prefers-reduced-motion: reduce) { .fill { transition: none; } }
+</style>
+</head>
+<body class="loading">
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <img src="logo.png" alt="Cress">
+      <span class="sep" aria-hidden="true"></span>
+      <p class="partner">Nottingham City Council<span>preloved uniform across city schools</span></p>
+    </div>
+    <span class="updated"><i></i><span id="updated">Loading latest figures</span></span>
+  </div>
+</header>
+
+<main>
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <p class="err wrap-err">The latest figures didn't load. Refresh the page to try again.</p>
+        <p class="eyebrow">Saved by Nottingham families</p>
+        <h1 class="big num" id="saved">£0,000</h1>
+        <p class="lede"><b id="families">000</b> families at <b id="schools">00</b> Nottingham schools have bought preloved uniform through Cress since <b id="first">July</b>, for a fraction of the price of new.</p>
+      </div>
+      <aside class="hero-side">
+        <div>
+          <p class="pct serif num" id="pct">00%</p>
+          <p>less than buying the same uniform new</p>
+        </div>
+        <p class="per">For every £100 of uniform at the new price, families paid <b class="num" id="per100">£00</b></p>
+      </aside>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap tiles">
+      <div class="tile t-yellow"><p class="lbl">Families helped</p><p class="val serif num" id="t-families">000</p><p class="sub"><span id="orders">000</span> orders</p></div>
+      <div class="tile t-sky"><p class="lbl">Preloved items</p><p class="val serif num" id="t-preloved">000</p><p class="sub">given a second life</p></div>
+      <div class="tile t-pink"><p class="lbl">Given free</p><p class="val serif num" id="t-free">000</p><p class="sub">items at no cost to families</p></div>
+      <div class="tile t-teal"><p class="lbl">Carbon saved</p><p class="val serif num" id="t-co2">0.0t</p><p class="sub">CO2e kept out of the air</p></div>
+      <div class="tile t-orange"><p class="lbl">Water saved</p><p class="val serif num" id="t-water">0.0m</p><p class="sub">litres not used making new</p></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap cards">
+      <div class="card">
+        <h2>Savings each week</h2>
+        <p class="note">Hover a week for the detail. Weeks start on Monday.</p>
+        <div class="chart" id="chart"></div>
+      </div>
+      <div class="card">
+        <h2>Paid, against worth new</h2>
+        <p class="note">Every preloved item sold, all schools.</p>
+        <div class="cmp">
+          <div class="cmp-row"><span>Worth new</span><b class="num" id="newValue">£0</b></div>
+          <div class="track"><div class="fill" id="bar-new" style="background: var(--sky)"></div></div>
+          <div class="cmp-row"><span>Families paid</span><b class="num" id="paid">£0</b></div>
+          <div class="track"><div class="fill" id="bar-paid" style="background: var(--navy)"></div></div>
+          <p class="gap">The difference, <b class="num" id="diff">£0</b>, stayed in Nottingham families' pockets.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="card">
+        <h2>School by school</h2>
+        <p class="note">Every school that has sold through its Cress shop. Tap a heading to sort.</p>
+        <div class="table-box">
+          <table>
+            <thead><tr>
+              <th data-k="school"><button type="button">School</button></th>
+              <th data-k="families"><button type="button">Families</button></th>
+              <th data-k="items" class="hide-narrow"><button type="button">Items</button></th>
+              <th data-k="freeItems" class="hide-narrow"><button type="button">Given free</button></th>
+              <th data-k="saved" aria-sort="descending"><button type="button">Saved</button></th>
+            </tr></thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap method">
+      <div class="card"><h3>How a saving is counted</h3><p>For each preloved item, the price of the same item new (from the Cress price list for that school's phase, branded or plain), less what the family paid. Free items count at their full new price.</p></div>
+      <div class="card"><h3>Carbon and water</h3><p>Recorded against each item at the point of sale, using Cress's garment impact factors for avoiding a new item.</p></div>
+      <div class="card"><h3>Where this comes from</h3><p>Paid, uncancelled orders from the Cress platform across Nottingham City Council schools, refreshed every weekday morning.</p></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <img src="logo.png" alt="Cress">
+    <span>Cress, the preloved uniform platform that saves families money · wearecress.com</span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const gbp0 = (v) => '£' + Math.round(v).toLocaleString('en-GB');
+  const gbp2 = (v) => '£' + v.toLocaleString('en-GB', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const int = (v) => Math.round(v).toLocaleString('en-GB');
+  const dayLong = (s) => new Date(s + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', timeZone: 'UTC' });
+  const dayShort = (s) => new Date(s + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' });
+
+  let data;
+  let sortKey = 'saved', sortDir = 'descending';
+
+  function countUp(el, to, fmt) {
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduce) { el.textContent = fmt(to); return; }
+    const t0 = performance.now(), dur = 1100;
+    const step = (t) => {
+      const p = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - p, 3);
+      el.textContent = fmt(to * e);
+      if (p < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }
+
+  function render() {
+    const h = data.headline;
+    const updated = new Date(data.updatedAt);
+    $('updated').textContent = 'Updated ' + updated.toLocaleString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', timeZone: 'Europe/London' });
+    countUp($('saved'), h.saved, gbp0);
+    $('families').textContent = int(h.families);
+    $('schools').textContent = int(h.schools);
+    $('first').textContent = dayLong(h.firstSale);
+    $('pct').textContent = Math.round(100 * (1 - h.paid / h.newValue)) + '%';
+    $('per100').textContent = gbp2(100 * h.paid / h.newValue);
+    countUp($('t-families'), h.families, int);
+    $('orders').textContent = int(h.orders);
+    countUp($('t-preloved'), h.preloved, int);
+    countUp($('t-free'), h.freeItems, int);
+    $('t-co2').textContent = (h.co2Kg / 1000).toFixed(1) + 't';
+    $('t-water').textContent = (h.waterLitres / 1e6).toFixed(2) + 'm';
+    $('newValue').textContent = gbp0(h.newValue);
+    $('paid').textContent = gbp0(h.paid);
+    $('diff').textContent = gbp0(h.newValue - h.paid);
+    requestAnimationFrame(() => {
+      $('bar-new').style.width = '100%';
+      $('bar-paid').style.width = (100 * h.paid / h.newValue) + '%';
+    });
+    drawChart();
+    drawTable();
+  }
+
+  function svgEl(tag, attrs, parent) {
+    const el = document.createElementNS('http://www.w3.org/2000/svg', tag);
+    for (const k in attrs) el.setAttribute(k, attrs[k]);
+    if (parent) parent.appendChild(el);
+    return el;
+  }
+
+  function niceMax(v) {
+    const p = Math.pow(10, Math.floor(Math.log10(v)));
+    for (const m of [1, 1.2, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10]) if (m * p >= v) return m * p;
+    return 10 * p;
+  }
+
+  function drawChart() {
+    const box = $('chart');
+    box.innerHTML = '';
+    const rows = data.weekly;
+    const W = Math.max(300, box.clientWidth), H = 280, mt = 10, mb = 28;
+    const svg = svgEl('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Savings each week' }, box);
+    const max = niceMax(Math.max(...rows.map((r) => r.saved)));
+    const ticks = [0, max / 4, max / 2, (3 * max) / 4, max];
+    const y = (v) => H - mb - (v / max) * (H - mb - mt);
+    let ml = 0;
+    ticks.forEach((t) => { const tx = svgEl('text', { class: 'tick' }, svg); tx.textContent = gbp0(t); ml = Math.max(ml, tx.getComputedTextLength()); tx.remove(); });
+    ml = Math.ceil(ml) + 12;
+    const step = (W - ml) / rows.length, bw = Math.min(30, step * 0.72);
+    ticks.forEach((t) => {
+      svgEl('line', { x1: ml, x2: W, y1: y(t), y2: y(t), stroke: t === 0 ? '#231E21' : '#E2D3C2', 'stroke-width': 1 }, svg);
+      const tx = svgEl('text', { class: 'tick', x: ml - 10, y: y(t), dy: '0.32em', 'text-anchor': 'end' }, svg);
+      tx.textContent = gbp0(t);
+    });
+    const probe = svgEl('text', { class: 'tick' }, svg); probe.textContent = '28 Sept'; const lw = probe.getComputedTextLength(); probe.remove();
+    const every = Math.max(1, Math.ceil((lw + 12) / step));
+    const peak = Math.max(...rows.map((r) => r.saved));
+    const bars = rows.map((r, i) => {
+      const cx = ml + step * i + step / 2;
+      const b = svgEl('rect', { x: cx - bw / 2, y: y(r.saved), width: bw, height: Math.max(0, y(0) - y(r.saved)), rx: 6, fill: r.saved === peak ? '#285C9C' : '#BBC5DF' }, svg);
+      if (i % every === 0) { const tx = svgEl('text', { class: 'tick', x: cx, y: H - 8, 'text-anchor': 'middle' }, svg); tx.textContent = dayShort(r.weekStart); }
+      return { r, b, cx };
+    });
+    const tip = document.createElement('div');
+    tip.className = 'tip'; tip.hidden = true; box.appendChild(tip);
+    bars.forEach(({ r, b, cx }) => {
+      const hit = svgEl('rect', { x: cx - step / 2, y: mt, width: step, height: H - mb - mt, fill: 'transparent' }, svg);
+      const show = () => {
+        bars.forEach((o) => o.b.setAttribute('fill', o.b === b ? '#285C9C' : '#BBC5DF'));
+        tip.innerHTML = '';
+        const s = document.createElement('span'); s.textContent = 'Week of ' + dayLong(r.weekStart);
+        const v = document.createElement('b'); v.textContent = gbp2(r.saved) + ' saved';
+        const d = document.createElement('span'); d.textContent = int(r.families) + ' families · ' + int(r.items) + ' items';
+        tip.append(s, v, d); tip.hidden = false;
+        const scale = box.clientWidth / W, tw = tip.offsetWidth;
+        tip.style.left = Math.min(Math.max(0, cx * scale - tw / 2), box.clientWidth - tw) + 'px';
+        tip.style.top = Math.max(0, y(r.saved) * scale - tip.offsetHeight - 10) + 'px';
+      };
+      hit.addEventListener('mouseenter', show);
+      hit.addEventListener('touchstart', show, { passive: true });
+      hit.addEventListener('mouseleave', () => { tip.hidden = true; bars.forEach((o) => o.b.setAttribute('fill', o.r.saved === peak ? '#285C9C' : '#BBC5DF')); });
+    });
+  }
+
+  function drawTable() {
+    const rows = data.schools.slice();
+    const max = Math.max(...rows.map((r) => r.saved)) || 1;
+    rows.sort((a, b) => {
+      const c = sortKey === 'school' ? a.school.localeCompare(b.school) : a[sortKey] - b[sortKey];
+      return sortDir === 'ascending' ? c : -c;
+    });
+    const tb = $('rows');
+    tb.innerHTML = '';
+    rows.forEach((r) => {
+      const tr = document.createElement('tr');
+      const td = (txt, cls) => { const c = document.createElement('td'); if (cls) c.className = cls; c.textContent = txt; tr.appendChild(c); return c; };
+      td(r.school); td(int(r.families)); td(int(r.items), 'hide-narrow');
+      const f = td('', 'hide-narrow');
+      if (r.freeItems > 0) { const s = document.createElement('span'); s.className = 'free-badge'; s.textContent = int(r.freeItems); f.appendChild(s); } else f.textContent = '0';
+      const s = td('');
+      const wrap = document.createElement('div'); wrap.className = 'savedcell';
+      const bar = document.createElement('span'); bar.className = 'inbar';
+      const i = document.createElement('i'); i.style.width = (100 * r.saved / max) + '%'; bar.appendChild(i);
+      const t = document.createElement('span'); t.className = 'num'; t.textContent = gbp2(r.saved);
+      wrap.append(bar, t); s.appendChild(wrap);
+      tb.appendChild(tr);
+    });
+  }
+
+  document.querySelectorAll('th[data-k]').forEach((th) => th.addEventListener('click', () => {
+    const k = th.dataset.k;
+    if (k === sortKey) sortDir = sortDir === 'descending' ? 'ascending' : 'descending';
+    else { sortKey = k; sortDir = k === 'school' ? 'ascending' : 'descending'; }
+    document.querySelectorAll('th[data-k]').forEach((h) => h.dataset.k === sortKey ? h.setAttribute('aria-sort', sortDir) : h.removeAttribute('aria-sort'));
+    if (data) drawTable();
+  }));
+
+  let rt;
+  window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => data && drawChart(), 150); });
+
+  fetch('data.json', { cache: 'no-store' })
+    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then((d) => { data = d; document.body.classList.remove('loading'); render(); })
+    .catch(() => { document.body.classList.remove('loading'); document.body.classList.add('error'); $('updated').textContent = 'Figures unavailable'; });
+})();
+</script>
+</body>
+</html>
