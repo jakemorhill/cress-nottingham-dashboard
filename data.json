@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-10-30T15:42:59Z",
+ "updatedAt": "2026-11-02T09:55:28Z",
  "headline": {
-  "families": 164,
-  "orders": 208,
-  "items": 541,
-  "preloved": 509,
-  "freeItems": 147,
-  "paid": 688.1,
-  "newValue": 5248.03,
-  "saved": 4693.86,
-  "co2Kg": 3477.5,
-  "waterLitres": 1974900,
-  "wasteKg": 239.55,
+  "families": 168,
+  "orders": 216,
+  "items": 564,
+  "preloved": 522,
+  "freeItems": 155,
+  "paid": 697.1,
+  "newValue": 5382.68,
+  "saved": 4819.51,
+  "co2Kg": 3574.5,
+  "waterLitres": 2028600,
+  "wasteKg": 246.3,
   "schools": 19,
   "firstSale": "2026-07-21",
-  "lastSale": "2026-10-28"
+  "lastSale": "2026-11-02"
  },
  "weekly": [
   {
@@ -103,9 +103,15 @@
   },
   {
    "weekStart": "2026-10-26",
+   "families": 8,
+   "items": 27,
+   "saved": 160.2
+  },
+  {
+   "weekStart": "2026-11-02",
    "families": 2,
-   "items": 8,
-   "saved": 43.55
+   "items": 4,
+   "saved": 9
   }
  ],
  "schools": [
@@ -133,16 +139,16 @@
   {
    "school": "Portland Spencer Academy",
    "families": 17,
-   "items": 37,
+   "items": 38,
    "freeItems": 0,
-   "saved": 415
+   "saved": 428
   },
   {
    "school": "Sneinton St Stephen's CofE Primary School",
-   "families": 15,
-   "items": 32,
-   "freeItems": 32,
-   "saved": 328
+   "families": 16,
+   "items": 37,
+   "freeItems": 37,
+   "saved": 395.5
   },
   {
    "school": "Victoria Primary School",
@@ -152,18 +158,18 @@
    "saved": 257.45
   },
   {
+   "school": "Crabtree Farm Primary School",
+   "families": 17,
+   "items": 49,
+   "freeItems": 22,
+   "saved": 229.65
+  },
+  {
    "school": "The Nottingham Emmanuel School",
    "families": 8,
    "items": 21,
    "freeItems": 0,
    "saved": 208.4
-  },
-  {
-   "school": "Crabtree Farm Primary School",
-   "families": 15,
-   "items": 36,
-   "freeItems": 19,
-   "saved": 206.65
   },
   {
    "school": "South Wilford Endowed CofE Primary School",
@@ -215,18 +221,18 @@
    "saved": 123.25
   },
   {
-   "school": "Robin Hood Primary School",
-   "families": 2,
-   "items": 8,
-   "freeItems": 0,
-   "saved": 75.25
-  },
-  {
    "school": "Highbank Primary and Nursery School",
    "families": 5,
-   "items": 20,
+   "items": 23,
    "freeItems": 0,
-   "saved": 74.2
+   "saved": 86.35
+  },
+  {
+   "school": "Robin Hood Primary School",
+   "families": 3,
+   "items": 9,
+   "freeItems": 0,
+   "saved": 85.25
   },
   {
    "school": "Southwold Primary School and Early Years' Centre",
