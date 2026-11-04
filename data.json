@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-11-03T09:55:21Z",
+ "updatedAt": "2026-11-04T09:55:48Z",
  "headline": {
-  "families": 170,
-  "orders": 221,
-  "items": 585,
-  "preloved": 543,
-  "freeItems": 166,
-  "paid": 706.6,
-  "newValue": 5562.18,
-  "saved": 4989.51,
-  "co2Kg": 3700.5,
-  "waterLitres": 2102500,
-  "wasteKg": 255.2,
-  "schools": 20,
+  "families": 175,
+  "orders": 226,
+  "items": 609,
+  "preloved": 567,
+  "freeItems": 169,
+  "paid": 732.6,
+  "newValue": 5666.23,
+  "saved": 5067.56,
+  "co2Kg": 3866.5,
+  "waterLitres": 2199800,
+  "wasteKg": 266.6,
+  "schools": 21,
   "firstSale": "2026-07-21",
-  "lastSale": "2026-11-03"
+  "lastSale": "2026-11-04"
  },
  "weekly": [
   {
@@ -109,9 +109,9 @@
   },
   {
    "weekStart": "2026-11-02",
-   "families": 8,
-   "items": 27,
-   "saved": 209
+   "families": 13,
+   "items": 51,
+   "saved": 287.05
   }
  ],
  "schools": [
@@ -173,10 +173,10 @@
   },
   {
    "school": "Glenbrook Spencer Academy",
-   "families": 6,
-   "items": 23,
+   "families": 7,
+   "items": 30,
    "freeItems": 0,
-   "saved": 173.9
+   "saved": 187.65
   },
   {
    "school": "South Wilford Endowed CofE Primary School",
@@ -187,10 +187,17 @@
   },
   {
    "school": "Nottingham Primary Academy",
-   "families": 6,
-   "items": 21,
+   "families": 7,
+   "items": 22,
    "freeItems": 0,
-   "saved": 152.76
+   "saved": 163.26
+  },
+  {
+   "school": "Firbeck Academy",
+   "families": 4,
+   "items": 25,
+   "freeItems": 0,
+   "saved": 163.25
   },
   {
    "school": "Djanogly Northgate Academy",
@@ -212,13 +219,6 @@
    "items": 17,
    "freeItems": 0,
    "saved": 133.55
-  },
-  {
-   "school": "Firbeck Academy",
-   "families": 3,
-   "items": 15,
-   "freeItems": 0,
-   "saved": 125.95
   },
   {
    "school": "Highbank Primary and Nursery School",
@@ -243,10 +243,17 @@
   },
   {
    "school": "Dunkirk Primary and Nursery School",
+   "families": 2,
+   "items": 5,
+   "freeItems": 3,
+   "saved": 35.25
+  },
+  {
+   "school": "Seely Primary School",
    "families": 1,
-   "items": 2,
+   "items": 3,
    "freeItems": 0,
-   "saved": 27
+   "saved": 8.25
   },
   {
    "school": "Radford Primary School Academy",
