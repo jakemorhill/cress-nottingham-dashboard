@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-11-04T09:55:48Z",
+ "updatedAt": "2026-11-05T09:55:39Z",
  "headline": {
-  "families": 175,
-  "orders": 226,
-  "items": 609,
-  "preloved": 567,
+  "families": 177,
+  "orders": 235,
+  "items": 611,
+  "preloved": 569,
   "freeItems": 169,
-  "paid": 732.6,
-  "newValue": 5666.23,
-  "saved": 5067.56,
-  "co2Kg": 3866.5,
-  "waterLitres": 2199800,
-  "wasteKg": 266.6,
+  "paid": 746.6,
+  "newValue": 5734.71,
+  "saved": 5150.94,
+  "co2Kg": 3953.5,
+  "waterLitres": 2255100,
+  "wasteKg": 270.25,
   "schools": 21,
   "firstSale": "2026-07-21",
-  "lastSale": "2026-11-04"
+  "lastSale": "2026-11-05"
  },
  "weekly": [
   {
@@ -109,9 +109,9 @@
   },
   {
    "weekStart": "2026-11-02",
-   "families": 13,
-   "items": 51,
-   "saved": 287.05
+   "families": 17,
+   "items": 53,
+   "saved": 370.43
   }
  ],
  "schools": [
@@ -132,9 +132,9 @@
   {
    "school": "Sycamore Academy",
    "families": 23,
-   "items": 44,
+   "items": 45,
    "freeItems": 0,
-   "saved": 505.1
+   "saved": 529.1
   },
   {
    "school": "Portland Spencer Academy",
@@ -165,18 +165,25 @@
    "saved": 257.45
   },
   {
+   "school": "Glenbrook Spencer Academy",
+   "families": 8,
+   "items": 32,
+   "freeItems": 0,
+   "saved": 209.65
+  },
+  {
    "school": "The Nottingham Emmanuel School",
    "families": 8,
-   "items": 21,
+   "items": 16,
    "freeItems": 0,
    "saved": 208.4
   },
   {
-   "school": "Glenbrook Spencer Academy",
-   "families": 7,
-   "items": 30,
+   "school": "Nottingham Primary Academy",
+   "families": 8,
+   "items": 26,
    "freeItems": 0,
-   "saved": 187.65
+   "saved": 200.64
   },
   {
    "school": "South Wilford Endowed CofE Primary School",
@@ -184,13 +191,6 @@
    "items": 21,
    "freeItems": 0,
    "saved": 172.8
-  },
-  {
-   "school": "Nottingham Primary Academy",
-   "families": 7,
-   "items": 22,
-   "freeItems": 0,
-   "saved": 163.26
   },
   {
    "school": "Firbeck Academy",
