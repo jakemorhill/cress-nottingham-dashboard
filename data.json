@@ -1,17 +1,17 @@
 {
- "updatedAt": "2026-11-05T09:55:39Z",
+ "updatedAt": "2026-11-06T10:13:39Z",
  "headline": {
-  "families": 177,
-  "orders": 235,
-  "items": 611,
-  "preloved": 569,
-  "freeItems": 169,
+  "families": 174,
+  "orders": 232,
+  "items": 597,
+  "preloved": 559,
+  "freeItems": 159,
   "paid": 746.6,
-  "newValue": 5734.71,
-  "saved": 5150.94,
-  "co2Kg": 3953.5,
-  "waterLitres": 2255100,
-  "wasteKg": 270.25,
+  "newValue": 5649.96,
+  "saved": 5066.19,
+  "co2Kg": 3888,
+  "waterLitres": 2215500,
+  "wasteKg": 265.8,
   "schools": 21,
   "firstSale": "2026-07-21",
   "lastSale": "2026-11-05"
@@ -91,9 +91,9 @@
   },
   {
    "weekStart": "2026-10-12",
-   "families": 34,
-   "items": 126,
-   "saved": 1138.66
+   "families": 30,
+   "items": 114,
+   "saved": 1053.91
   },
   {
    "weekStart": "2026-10-19",
@@ -109,8 +109,8 @@
   },
   {
    "weekStart": "2026-11-02",
-   "families": 17,
-   "items": 53,
+   "families": 18,
+   "items": 51,
    "saved": 370.43
   }
  ],
@@ -123,18 +123,18 @@
    "saved": 989.9
   },
   {
-   "school": "Glade Hill Primary & Nursery School",
-   "families": 14,
-   "items": 56,
-   "freeItems": 52,
-   "saved": 542.45
-  },
-  {
    "school": "Sycamore Academy",
    "families": 23,
    "items": 45,
    "freeItems": 0,
    "saved": 529.1
+  },
+  {
+   "school": "Glade Hill Primary & Nursery School",
+   "families": 11,
+   "items": 42,
+   "freeItems": 42,
+   "saved": 457.7
   },
   {
    "school": "Portland Spencer Academy",
