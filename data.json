@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-11-06T10:13:39Z",
+ "updatedAt": "2026-11-12T09:55:30Z",
  "headline": {
-  "families": 174,
-  "orders": 232,
-  "items": 597,
-  "preloved": 559,
-  "freeItems": 159,
-  "paid": 746.6,
-  "newValue": 5649.96,
-  "saved": 5066.19,
-  "co2Kg": 3888,
-  "waterLitres": 2215500,
-  "wasteKg": 265.8,
+  "families": 186,
+  "orders": 251,
+  "items": 636,
+  "preloved": 598,
+  "freeItems": 172,
+  "paid": 802.6,
+  "newValue": 6066.66,
+  "saved": 5439.89,
+  "co2Kg": 4177,
+  "waterLitres": 2382700,
+  "wasteKg": 285.1,
   "schools": 21,
   "firstSale": "2026-07-21",
-  "lastSale": "2026-11-05"
+  "lastSale": "2026-11-12"
  },
  "weekly": [
   {
@@ -103,31 +103,44 @@
   },
   {
    "weekStart": "2026-10-26",
-   "families": 8,
-   "items": 27,
-   "saved": 160.2
+   "families": 7,
+   "items": 26,
+   "saved": 147.2
   },
   {
    "weekStart": "2026-11-02",
-   "families": 18,
-   "items": 51,
-   "saved": 370.43
+   "families": 25,
+   "items": 63,
+   "saved": 513.33
+  },
+  {
+   "weekStart": "2026-11-09",
+   "families": 13,
+   "items": 28,
+   "saved": 243.8
   }
  ],
  "schools": [
   {
    "school": "Southglade Primary and Nursery School",
    "families": 24,
-   "items": 113,
+   "items": 116,
    "freeItems": 0,
-   "saved": 989.9
+   "saved": 1028.9
   },
   {
    "school": "Sycamore Academy",
-   "families": 23,
-   "items": 45,
+   "families": 24,
+   "items": 46,
    "freeItems": 0,
-   "saved": 529.1
+   "saved": 538.6
+  },
+  {
+   "school": "Crabtree Farm Primary School",
+   "families": 21,
+   "items": 71,
+   "freeItems": 44,
+   "saved": 480.1
   },
   {
    "school": "Glade Hill Primary & Nursery School",
@@ -138,24 +151,17 @@
   },
   {
    "school": "Portland Spencer Academy",
-   "families": 17,
-   "items": 38,
+   "families": 18,
+   "items": 39,
    "freeItems": 0,
-   "saved": 428
+   "saved": 452
   },
   {
    "school": "Sneinton St Stephen's CofE Primary School",
-   "families": 16,
-   "items": 37,
-   "freeItems": 37,
-   "saved": 395.5
-  },
-  {
-   "school": "Crabtree Farm Primary School",
-   "families": 18,
-   "items": 62,
-   "freeItems": 35,
-   "saved": 366.1
+   "families": 17,
+   "items": 41,
+   "freeItems": 41,
+   "saved": 413.65
   },
   {
    "school": "Victoria Primary School",
@@ -165,32 +171,32 @@
    "saved": 257.45
   },
   {
+   "school": "The Nottingham Emmanuel School",
+   "families": 9,
+   "items": 17,
+   "freeItems": 0,
+   "saved": 228.4
+  },
+  {
+   "school": "Nottingham Primary Academy",
+   "families": 8,
+   "items": 28,
+   "freeItems": 0,
+   "saved": 218.89
+  },
+  {
+   "school": "South Wilford Endowed CofE Primary School",
+   "families": 4,
+   "items": 26,
+   "freeItems": 0,
+   "saved": 212.05
+  },
+  {
    "school": "Glenbrook Spencer Academy",
    "families": 8,
    "items": 32,
    "freeItems": 0,
    "saved": 209.65
-  },
-  {
-   "school": "The Nottingham Emmanuel School",
-   "families": 8,
-   "items": 16,
-   "freeItems": 0,
-   "saved": 208.4
-  },
-  {
-   "school": "Nottingham Primary Academy",
-   "families": 8,
-   "items": 26,
-   "freeItems": 0,
-   "saved": 200.64
-  },
-  {
-   "school": "South Wilford Endowed CofE Primary School",
-   "families": 3,
-   "items": 21,
-   "freeItems": 0,
-   "saved": 172.8
   },
   {
    "school": "Firbeck Academy",
@@ -235,6 +241,20 @@
    "saved": 85.25
   },
   {
+   "school": "Radford Primary School Academy",
+   "families": 3,
+   "items": 5,
+   "freeItems": 0,
+   "saved": 55.5
+  },
+  {
+   "school": "Seely Primary School",
+   "families": 4,
+   "items": 14,
+   "freeItems": 0,
+   "saved": 51.8
+  },
+  {
    "school": "Southwold Primary School and Early Years' Centre",
    "families": 2,
    "items": 6,
@@ -247,20 +267,6 @@
    "items": 5,
    "freeItems": 3,
    "saved": 35.25
-  },
-  {
-   "school": "Seely Primary School",
-   "families": 1,
-   "items": 3,
-   "freeItems": 0,
-   "saved": 8.25
-  },
-  {
-   "school": "Radford Primary School Academy",
-   "families": 2,
-   "items": 3,
-   "freeItems": 0,
-   "saved": 7.5
   }
  ]
 }
