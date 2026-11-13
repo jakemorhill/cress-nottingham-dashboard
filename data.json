@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-11-12T09:55:30Z",
+ "updatedAt": "2026-11-13T09:55:33Z",
  "headline": {
-  "families": 186,
-  "orders": 251,
-  "items": 636,
-  "preloved": 598,
-  "freeItems": 172,
-  "paid": 802.6,
-  "newValue": 6066.66,
-  "saved": 5439.89,
-  "co2Kg": 4177,
-  "waterLitres": 2382700,
-  "wasteKg": 285.1,
+  "families": 200,
+  "orders": 265,
+  "items": 672,
+  "preloved": 633,
+  "freeItems": 195,
+  "paid": 820.6,
+  "newValue": 6353.36,
+  "saved": 5708.59,
+  "co2Kg": 4424,
+  "waterLitres": 2531200,
+  "wasteKg": 301.8,
   "schools": 21,
   "firstSale": "2026-07-21",
-  "lastSale": "2026-11-12"
+  "lastSale": "2026-11-13"
  },
  "weekly": [
   {
@@ -57,7 +57,7 @@
    "weekStart": "2026-08-31",
    "families": 19,
    "items": 32,
-   "saved": 311.9
+   "saved": 317.4
   },
   {
    "weekStart": "2026-09-07",
@@ -115,9 +115,9 @@
   },
   {
    "weekStart": "2026-11-09",
-   "families": 13,
-   "items": 28,
-   "saved": 243.8
+   "families": 27,
+   "items": 64,
+   "saved": 507
   }
  ],
  "schools": [
@@ -126,7 +126,14 @@
    "families": 24,
    "items": 116,
    "freeItems": 0,
-   "saved": 1028.9
+   "saved": 1034.4
+  },
+  {
+   "school": "Glade Hill Primary & Nursery School",
+   "families": 19,
+   "items": 60,
+   "freeItems": 58,
+   "saved": 601.6
   },
   {
    "school": "Sycamore Academy",
@@ -136,6 +143,13 @@
    "saved": 538.6
   },
   {
+   "school": "Sneinton St Stephen's CofE Primary School",
+   "families": 21,
+   "items": 48,
+   "freeItems": 48,
+   "saved": 483.4
+  },
+  {
    "school": "Crabtree Farm Primary School",
    "families": 21,
    "items": 71,
@@ -143,25 +157,11 @@
    "saved": 480.1
   },
   {
-   "school": "Glade Hill Primary & Nursery School",
-   "families": 11,
-   "items": 42,
-   "freeItems": 42,
-   "saved": 457.7
-  },
-  {
    "school": "Portland Spencer Academy",
    "families": 18,
    "items": 39,
    "freeItems": 0,
    "saved": 452
-  },
-  {
-   "school": "Sneinton St Stephen's CofE Primary School",
-   "families": 17,
-   "items": 41,
-   "freeItems": 41,
-   "saved": 413.65
   },
   {
    "school": "Victoria Primary School",
@@ -227,6 +227,13 @@
    "saved": 133.55
   },
   {
+   "school": "Seely Primary School",
+   "families": 6,
+   "items": 25,
+   "freeItems": 0,
+   "saved": 101.35
+  },
+  {
    "school": "Highbank Primary and Nursery School",
    "families": 5,
    "items": 23,
@@ -246,13 +253,6 @@
    "items": 5,
    "freeItems": 0,
    "saved": 55.5
-  },
-  {
-   "school": "Seely Primary School",
-   "families": 4,
-   "items": 14,
-   "freeItems": 0,
-   "saved": 51.8
   },
   {
    "school": "Southwold Primary School and Early Years' Centre",
