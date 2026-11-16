@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-11-13T09:55:33Z",
+ "updatedAt": "2026-11-16T09:55:17Z",
  "headline": {
-  "families": 200,
-  "orders": 265,
-  "items": 672,
-  "preloved": 633,
-  "freeItems": 195,
-  "paid": 820.6,
-  "newValue": 6353.36,
-  "saved": 5708.59,
-  "co2Kg": 4424,
-  "waterLitres": 2531200,
-  "wasteKg": 301.8,
+  "families": 205,
+  "orders": 273,
+  "items": 690,
+  "preloved": 651,
+  "freeItems": 201,
+  "paid": 841.6,
+  "newValue": 6520.41,
+  "saved": 5854.64,
+  "co2Kg": 4542,
+  "waterLitres": 2597300,
+  "wasteKg": 310.05,
   "schools": 21,
   "firstSale": "2026-07-21",
-  "lastSale": "2026-11-13"
+  "lastSale": "2026-11-16"
  },
  "weekly": [
   {
@@ -115,18 +115,24 @@
   },
   {
    "weekStart": "2026-11-09",
-   "families": 27,
-   "items": 64,
-   "saved": 507
+   "families": 33,
+   "items": 81,
+   "saved": 633.05
+  },
+  {
+   "weekStart": "2026-11-16",
+   "families": 1,
+   "items": 1,
+   "saved": 20
   }
  ],
  "schools": [
   {
    "school": "Southglade Primary and Nursery School",
    "families": 24,
-   "items": 116,
+   "items": 119,
    "freeItems": 0,
-   "saved": 1034.4
+   "saved": 1073.4
   },
   {
    "school": "Glade Hill Primary & Nursery School",
@@ -144,17 +150,17 @@
   },
   {
    "school": "Sneinton St Stephen's CofE Primary School",
-   "families": 21,
-   "items": 48,
-   "freeItems": 48,
-   "saved": 483.4
+   "families": 23,
+   "items": 51,
+   "freeItems": 51,
+   "saved": 508.3
   },
   {
    "school": "Crabtree Farm Primary School",
    "families": 21,
-   "items": 71,
-   "freeItems": 44,
-   "saved": 480.1
+   "items": 73,
+   "freeItems": 46,
+   "saved": 496.1
   },
   {
    "school": "Portland Spencer Academy",
@@ -173,9 +179,9 @@
   {
    "school": "The Nottingham Emmanuel School",
    "families": 9,
-   "items": 17,
+   "items": 18,
    "freeItems": 0,
-   "saved": 228.4
+   "saved": 248.4
   },
   {
    "school": "Nottingham Primary Academy",
@@ -228,10 +234,10 @@
   },
   {
    "school": "Seely Primary School",
-   "families": 6,
-   "items": 25,
+   "families": 7,
+   "items": 31,
    "freeItems": 0,
-   "saved": 101.35
+   "saved": 115.75
   },
   {
    "school": "Highbank Primary and Nursery School",
@@ -248,6 +254,13 @@
    "saved": 85.25
   },
   {
+   "school": "Dunkirk Primary and Nursery School",
+   "families": 4,
+   "items": 8,
+   "freeItems": 4,
+   "saved": 67
+  },
+  {
    "school": "Radford Primary School Academy",
    "families": 3,
    "items": 5,
@@ -260,13 +273,6 @@
    "items": 6,
    "freeItems": 0,
    "saved": 47.55
-  },
-  {
-   "school": "Dunkirk Primary and Nursery School",
-   "families": 2,
-   "items": 5,
-   "freeItems": 3,
-   "saved": 35.25
   }
  ]
 }
