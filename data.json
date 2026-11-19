@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-11-16T09:55:17Z",
+ "updatedAt": "2026-11-19T09:55:22Z",
  "headline": {
-  "families": 205,
-  "orders": 273,
-  "items": 690,
-  "preloved": 651,
-  "freeItems": 201,
-  "paid": 841.6,
-  "newValue": 6520.41,
-  "saved": 5854.64,
-  "co2Kg": 4542,
-  "waterLitres": 2597300,
-  "wasteKg": 310.05,
-  "schools": 21,
+  "families": 220,
+  "orders": 294,
+  "items": 757,
+  "preloved": 715,
+  "freeItems": 209,
+  "paid": 922.6,
+  "newValue": 7111.32,
+  "saved": 6368.3,
+  "co2Kg": 4950,
+  "waterLitres": 2825700,
+  "wasteKg": 338.5,
+  "schools": 22,
   "firstSale": "2026-07-21",
-  "lastSale": "2026-11-16"
+  "lastSale": "2026-11-19"
  },
  "weekly": [
   {
@@ -121,25 +121,25 @@
   },
   {
    "weekStart": "2026-11-16",
-   "families": 1,
-   "items": 1,
-   "saved": 20
+   "families": 21,
+   "items": 68,
+   "saved": 533.66
   }
  ],
  "schools": [
   {
    "school": "Southglade Primary and Nursery School",
-   "families": 24,
-   "items": 119,
+   "families": 26,
+   "items": 137,
    "freeItems": 0,
-   "saved": 1073.4
+   "saved": 1220.2
   },
   {
    "school": "Glade Hill Primary & Nursery School",
-   "families": 19,
-   "items": 60,
-   "freeItems": 58,
-   "saved": 601.6
+   "families": 20,
+   "items": 62,
+   "freeItems": 60,
+   "saved": 638.6
   },
   {
    "school": "Sycamore Academy",
@@ -150,17 +150,17 @@
   },
   {
    "school": "Sneinton St Stephen's CofE Primary School",
-   "families": 23,
-   "items": 51,
-   "freeItems": 51,
-   "saved": 508.3
+   "families": 24,
+   "items": 55,
+   "freeItems": 55,
+   "saved": 534.55
   },
   {
    "school": "Crabtree Farm Primary School",
-   "families": 21,
-   "items": 73,
-   "freeItems": 46,
-   "saved": 496.1
+   "families": 22,
+   "items": 78,
+   "freeItems": 48,
+   "saved": 524.1
   },
   {
    "school": "Portland Spencer Academy",
@@ -170,6 +170,13 @@
    "saved": 452
   },
   {
+   "school": "Glenbrook Spencer Academy",
+   "families": 8,
+   "items": 44,
+   "freeItems": 0,
+   "saved": 284.65
+  },
+  {
    "school": "Victoria Primary School",
    "families": 6,
    "items": 42,
@@ -177,18 +184,18 @@
    "saved": 257.45
   },
   {
-   "school": "The Nottingham Emmanuel School",
+   "school": "Nottingham Primary Academy",
    "families": 9,
-   "items": 18,
+   "items": 32,
    "freeItems": 0,
-   "saved": 248.4
+   "saved": 257.15
   },
   {
-   "school": "Nottingham Primary Academy",
-   "families": 8,
-   "items": 28,
+   "school": "The Nottingham Emmanuel School",
+   "families": 9,
+   "items": 19,
    "freeItems": 0,
-   "saved": 218.89
+   "saved": 253.9
   },
   {
    "school": "South Wilford Endowed CofE Primary School",
@@ -198,18 +205,11 @@
    "saved": 212.05
   },
   {
-   "school": "Glenbrook Spencer Academy",
-   "families": 8,
-   "items": 32,
-   "freeItems": 0,
-   "saved": 209.65
-  },
-  {
    "school": "Firbeck Academy",
-   "families": 4,
-   "items": 25,
+   "families": 5,
+   "items": 30,
    "freeItems": 0,
-   "saved": 163.25
+   "saved": 178.45
   },
   {
    "school": "Djanogly Northgate Academy",
@@ -233,6 +233,13 @@
    "saved": 133.55
   },
   {
+   "school": "Highbank Primary and Nursery School",
+   "families": 6,
+   "items": 28,
+   "freeItems": 0,
+   "saved": 121.5
+  },
+  {
    "school": "Seely Primary School",
    "families": 7,
    "items": 31,
@@ -240,11 +247,11 @@
    "saved": 115.75
   },
   {
-   "school": "Highbank Primary and Nursery School",
-   "families": 5,
-   "items": 23,
+   "school": "Huntingdon Academy",
+   "families": 6,
+   "items": 10,
    "freeItems": 0,
-   "saved": 86.35
+   "saved": 93.5
   },
   {
    "school": "Robin Hood Primary School",
@@ -261,18 +268,18 @@
    "saved": 67
   },
   {
+   "school": "Southwold Primary School and Early Years' Centre",
+   "families": 3,
+   "items": 7,
+   "freeItems": 0,
+   "saved": 60.55
+  },
+  {
    "school": "Radford Primary School Academy",
    "families": 3,
    "items": 5,
    "freeItems": 0,
    "saved": 55.5
-  },
-  {
-   "school": "Southwold Primary School and Early Years' Centre",
-   "families": 2,
-   "items": 6,
-   "freeItems": 0,
-   "saved": 47.55
   }
  ]
 }
