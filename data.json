@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-11-20T09:55:11Z",
+ "updatedAt": "2026-11-23T09:55:53Z",
  "headline": {
-  "families": 220,
-  "orders": 295,
-  "items": 761,
-  "preloved": 719,
+  "families": 222,
+  "orders": 297,
+  "items": 764,
+  "preloved": 722,
   "freeItems": 209,
-  "paid": 918.6,
-  "newValue": 7171.32,
-  "saved": 6439.3,
-  "co2Kg": 4990,
-  "waterLitres": 2843100,
-  "wasteKg": 340.95,
-  "schools": 22,
+  "paid": 929.6,
+  "newValue": 7208.82,
+  "saved": 6465.8,
+  "co2Kg": 5011,
+  "waterLitres": 2854800,
+  "wasteKg": 342.4,
+  "schools": 23,
   "firstSale": "2026-07-21",
-  "lastSale": "2026-11-20"
+  "lastSale": "2026-11-21"
  },
  "weekly": [
   {
@@ -121,9 +121,9 @@
   },
   {
    "weekStart": "2026-11-16",
-   "families": 23,
-   "items": 73,
-   "saved": 611.66
+   "families": 25,
+   "items": 76,
+   "saved": 638.16
   }
  ],
  "schools": [
@@ -206,10 +206,10 @@
   },
   {
    "school": "Firbeck Academy",
-   "families": 5,
-   "items": 30,
+   "families": 6,
+   "items": 32,
    "freeItems": 0,
-   "saved": 178.45
+   "saved": 196.95
   },
   {
    "school": "Djanogly Northgate Academy",
@@ -280,6 +280,13 @@
    "items": 5,
    "freeItems": 0,
    "saved": 55.5
+  },
+  {
+   "school": "The Trinity Catholic School A Voluntary Academy",
+   "families": 1,
+   "items": 1,
+   "freeItems": 0,
+   "saved": 8
   }
  ]
 }
