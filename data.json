@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-11-24T09:54:58Z",
+ "updatedAt": "2026-11-26T09:55:10Z",
  "headline": {
-  "families": 225,
-  "orders": 301,
-  "items": 768,
-  "preloved": 726,
-  "freeItems": 209,
+  "families": 230,
+  "orders": 311,
+  "items": 785,
+  "preloved": 743,
+  "freeItems": 219,
   "paid": 944.1,
-  "newValue": 7233.94,
-  "saved": 6487.55,
-  "co2Kg": 5049,
-  "waterLitres": 2876400,
-  "wasteKg": 344.55,
+  "newValue": 7307.64,
+  "saved": 6598.25,
+  "co2Kg": 5204.5,
+  "waterLitres": 2972400,
+  "wasteKg": 352.9,
   "schools": 23,
   "firstSale": "2026-07-21",
-  "lastSale": "2026-11-24"
+  "lastSale": "2026-11-26"
  },
  "weekly": [
   {
@@ -121,31 +121,38 @@
   },
   {
    "weekStart": "2026-11-16",
-   "families": 25,
-   "items": 76,
-   "saved": 638.16
+   "families": 24,
+   "items": 74,
+   "saved": 601.16
   },
   {
    "weekStart": "2026-11-23",
-   "families": 4,
-   "items": 4,
-   "saved": 21.75
+   "families": 13,
+   "items": 23,
+   "saved": 169.45
   }
  ],
  "schools": [
   {
    "school": "Southglade Primary and Nursery School",
    "families": 26,
-   "items": 143,
+   "items": 142,
    "freeItems": 0,
    "saved": 1298.2
   },
   {
    "school": "Glade Hill Primary & Nursery School",
-   "families": 20,
-   "items": 60,
-   "freeItems": 60,
-   "saved": 631.6
+   "families": 19,
+   "items": 61,
+   "freeItems": 61,
+   "saved": 609.65
+  },
+  {
+   "school": "Crabtree Farm Primary School",
+   "families": 23,
+   "items": 85,
+   "freeItems": 55,
+   "saved": 549.85
   },
   {
    "school": "Sycamore Academy",
@@ -160,13 +167,6 @@
    "items": 55,
    "freeItems": 55,
    "saved": 534.55
-  },
-  {
-   "school": "Crabtree Farm Primary School",
-   "families": 22,
-   "items": 78,
-   "freeItems": 48,
-   "saved": 524.1
   },
   {
    "school": "Portland Spencer Academy",
@@ -192,7 +192,7 @@
   {
    "school": "Nottingham Primary Academy",
    "families": 9,
-   "items": 31,
+   "items": 29,
    "freeItems": 0,
    "saved": 257.15
   },
@@ -209,6 +209,13 @@
    "items": 26,
    "freeItems": 0,
    "saved": 212.05
+  },
+  {
+   "school": "Huntingdon Academy",
+   "families": 11,
+   "items": 22,
+   "freeItems": 2,
+   "saved": 200.4
   },
   {
    "school": "Firbeck Academy",
@@ -251,13 +258,6 @@
    "items": 33,
    "freeItems": 0,
    "saved": 121.25
-  },
-  {
-   "school": "Huntingdon Academy",
-   "families": 6,
-   "items": 10,
-   "freeItems": 0,
-   "saved": 93.5
   },
   {
    "school": "Robin Hood Primary School",
