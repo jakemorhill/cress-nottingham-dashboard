@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-11-26T09:55:10Z",
+ "updatedAt": "2026-11-27T09:55:34Z",
  "headline": {
-  "families": 230,
-  "orders": 311,
-  "items": 785,
-  "preloved": 743,
+  "families": 232,
+  "orders": 313,
+  "items": 788,
+  "preloved": 745,
   "freeItems": 219,
-  "paid": 944.1,
-  "newValue": 7307.64,
-  "saved": 6598.25,
-  "co2Kg": 5204.5,
-  "waterLitres": 2972400,
-  "wasteKg": 352.9,
+  "paid": 948.1,
+  "newValue": 7335.64,
+  "saved": 6622.25,
+  "co2Kg": 5216.5,
+  "waterLitres": 2977800,
+  "wasteKg": 353.8,
   "schools": 23,
   "firstSale": "2026-07-21",
-  "lastSale": "2026-11-26"
+  "lastSale": "2026-11-27"
  },
  "weekly": [
   {
@@ -127,9 +127,9 @@
   },
   {
    "weekStart": "2026-11-23",
-   "families": 13,
-   "items": 23,
-   "saved": 169.45
+   "families": 15,
+   "items": 26,
+   "saved": 193.45
   }
  ],
  "schools": [
@@ -170,10 +170,10 @@
   },
   {
    "school": "Portland Spencer Academy",
-   "families": 18,
-   "items": 39,
+   "families": 19,
+   "items": 41,
    "freeItems": 0,
-   "saved": 452
+   "saved": 476
   },
   {
    "school": "Glenbrook Spencer Academy",
@@ -226,8 +226,8 @@
   },
   {
    "school": "Djanogly Northgate Academy",
-   "families": 5,
-   "items": 14,
+   "families": 6,
+   "items": 15,
    "freeItems": 0,
    "saved": 147.25
   },
